@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://kit.fontawesome.com/42b01ee5bf.js" crossorigin="anonymous"></script>
+	</head>
+	<body	id="id-modo-noche">
+		<header>
+			<div	id="contenedor_del_header">
+				<div id="separador_1">
+					<div class="separador_1_espaciador"></div>
+					<div id="contenedor_de_foto">
+						<img
+							src="cvfoto.png"
+							alt="Foto de Juan Perez"
+							id="img_dev"
+						/>
+					</div>
+					<div class="separador_1_espaciador"></div>
+					<div id="botones_sociales">
+						<a href="http://linkedin.com"
+							><i class="fa-brands fa-linkedin img_icono"></i></a
+						><a href="http://github.com"
+							><i class="fa-brands fa-github img_icono"></i></a
+						><a href="http://google.com">
+							<i class="fa-solid fa-briefcase img_icono"></i>
+						</a>
+						<button onclick="fuModoNoche ()"><i class="fa-solid fa-moon img_icono"></i></button>
+					</div>
+				</div>
+				<div id="separador_2">
+					<div id="nombre">
+						<h1>
+							<p>Juan</p>
+							<p id="apellido">Perez</p>
+						</h1>
+					</div>
+					<div class="separador_1_espaciador">&nbsp</div>
+					<div class="textoSep2"><h2>junior web developer</h2></div>
+				</div>
+			</div>
+		</header>
+		<div class="macro_cont_tarjetas">
+			<div></div>
+			<div class="cont_tarjetas">
+				<section class="tarjeta">
+					<h3 class="titulo_tarjeta">Sobre mí</h3>
+					<br />
+					<p class="tarjeta_texto">
+						Amigable y perseverante. Soy un apasionado desarrollador
+						web junior con experiencia en HTML, CSS, JavaScript y
+						React. Me gusta enfrentar desafíos y aprender cosas
+						nuevas. Busco una oportunidad para aplicar y mejorar mis
+						habilidades en un entorno colaborativo.
+					</p>
+				</section>
+				<section class="tarjeta">
+					<h3>Educación</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>
+							<span class="cvFecha">2022</span> Curso en línea de
+							Desarrollo Web en Codecademy
+						</li>
+						<li>
+							<span class="cvFecha">2021</span> Diplomado en
+							Diseño Web en la Universidad Nacional de Buenos
+							Aires
+						</li>
+						<li>
+							<span class="cvFecha">2017</span> Bachiller en
+							Ciencias en el Colegio Nacional Buenos Aires
+						</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Trabajos</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>
+							<span class="cvFecha">2022-Presente</span>
+							Desarrollador Web Junior en XYZ Company
+						</li>
+						<li>
+							<span class="cvFecha">2021-2021</span> Diseñador web
+							en Agencia ABC
+						</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Experiencias y proyectos</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>
+							Desarrollo de un sitio web de comercio electrónico
+							utilizando React y Redux
+						</li>
+						<li>
+							Creación de una aplicación web interactiva para el
+							seguimiento de entrenamientos físicos
+						</li>
+						<li>
+							Participación en el desarrollo de una plataforma de
+							gestión de eventos
+						</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Habilidades suaves</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>Capacidad de liderazgo y trabajo en equipo</li>
+						<li>Comunicación efectiva</li>
+						<li>Resolución de problemas</li>
+						<li>Aprendizaje rápido</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Certificaciones</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>Curso de Desarrollo Web Completo en Udemy</li>
+						<li>Curso de Javascript en Platzi</li>
+						<li>Curso de React en Codecademy</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Idiomas que manejo</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>Español (Nativo)</li>
+						<li>Esperanto (Intermedio)</li>
+						<li>Latín (Conversacional)</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Intereses y Hobbies relacionados</h3>
+					<br />
+					<ul class="tarjeta_texto">
+						<li>Desarollo de Aplicaciones Web</li>
+						<li>Aprendizaje de nuevos lenguajes de programación</li>
+						<li>Participación en hackathons</li>
+					</ul>
+				</section>
+				<section class="tarjeta">
+					<h3>Envíame tu comentario</h3>
+					<p>&nbsp</p>
+					<form
+						class="tarjeta_texto"
+						id="caja-de-comentarios"
+						action="https://formsubmit.co/saulsantiagomayo@gmail.com"
+						method="POST"
+					>
+						<label for="tu-nombre">Nombre</label>
+						<input type="text" name="nombre" />
+						<label for="tu-mail">Tu Mail</label>
+						<input type="text" name="email" />
+						<label for="tu-asunto">Asunto</label>
+						<input type="text" name="asunto" />
+						<label for="tu-comentario">Comentario</label>
+						<textarea
+							name="tu-comentario"
+							cols="30"
+							rows="5"
+						></textarea>
+						<input type="submit" value="ENVIAR" />
+					</form>
+				</section>
+			</div>
+		</div>
+		<script
+			src="./index.js"
+		>
+		</script>
+		<footer></footer>
+	</body>
+</html>
+
